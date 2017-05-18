@@ -45,7 +45,7 @@ public class RecyclerViewFragment extends Fragment {
         contactos.add(new Contacto(R.drawable.user_female_96,"Guadalupe Alva","33334444","guadalupe@gmail.com"));
         contactos.add(new Contacto(R.drawable.user_male_96,"Erick Alva","33334444","erick@gmail.com"));
         contactos.add(new Contacto(R.drawable.user_female_skin_type_4_96,"Rosita Cortez","33334444","rosita@gmail.com"));
-        contactos.add(new Contacto(R.drawable.user_male_skin_type_5_96,"David Alva","33334444","david@gmail.com"));
+        contactos.add(new Contacto(R.drawable.user_male_skin_type_5_96,"David Alva","33334444","david@gmail"));
     }
 
     private ContactoAdaptador adaptador;
