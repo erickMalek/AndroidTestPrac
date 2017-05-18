@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MiViewPager</string>
+    <string name="cv_Nombre">Nombre</string>
+    <string name="cv_Telefono">Telefono</string>
+    <string name="cv_Email">Mail</string>
+    <string name="tv_nombre_detalle">Nombre</string>
+    <string name="tv_telefono_detalle">Telefono</string>
+    <string name="tv_mail_detalle">Mail</string>
+    <string name="iFoto">imgFoto</string>
+    <string name="iNombre">Nombre</string>
+    <string name="iTelefono">Telefono</string>
+    <string name="iEmail">Email</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

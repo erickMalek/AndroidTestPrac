@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_detalle_contacto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.erickalva.miviewpager.DetalleContacto">
+
+    <ImageView
+        android:id="@+id/ImgFotoDetalle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/user"
+        />
+
+
+    <TextView
+        android:id="@+id/tvNombreDetalle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_nombre_detalle"
+        android:textStyle="bold"
+        android:textSize="@dimen/texto_nombre_detalle"
+        android:layout_alignBottom="@+id/ImgFotoDetalle"
+        android:layout_toRightOf="@+id/ImgFotoDetalle"
+        android:layout_toEndOf="@+id/ImgFotoDetalle"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"/>
+
+    <LinearLayout
+        android:id="@+id/ly1"
+        android:paddingTop="@dimen/paddingTop_linearLayout"
+        android:layout_below="@id/tvNombreDetalle"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgTelefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/phone_48"/>
+
+        <TextView
+            android:id="@+id/tvTelefonoDetalle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_left_icono_detalle"
+            android:text="@string/tv_telefono_detalle"
+            android:textSize="@dimen/texto_linearLayout"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingTop="@dimen/paddingTop_linearLayout"
+        android:layout_below="@id/ly1"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgMailDetalle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/message_48"/>
+
+
+        <TextView
+            android:id="@+id/tvMailDetalle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_left_icono_detalle"
+            android:text="@string/tv_mail_detalle"
+            android:textSize="@dimen/texto_linearLayout"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
